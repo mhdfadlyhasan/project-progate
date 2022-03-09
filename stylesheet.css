@@ -1,0 +1,213 @@
+/* Reset CSS (DO NOT DELETE) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Write your code below */
+header{
+  width: 100%;
+  
+  Line-height:65px;
+  z-index:10;
+  position: fixed; 
+  background-color:rgba(34, 49, 52, 0.9);
+}
+
+.header-container{
+  width:1170px;
+  margin : 0 auto;
+}
+
+.header-logo{
+  width:124px;
+  margin-top: 20px;
+}
+.header-left{
+  float:left;
+}
+.header-login{
+  color:white;
+  float:right;
+  padding: 0px 25px;
+  background-color:rgba(255, 255, 255, 0.3);
+}
+
+.header-login:hover{
+  transition: all 0.5s;
+  
+  background-color:rgba(255, 255, 255, 0.5);
+}
+
+.top-content{
+  
+  text-align:center;
+  background: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-size: cover;
+}
+
+.content-body{
+  padding: 180px 0px 100px 0px;
+  width: 1170px;
+  margin: 0 auto;
+  color:rgba(255, 255, 255, 0.7);
+}
+
+.content-body h1{
+  
+  font-size:45px;
+  letter-spacing:5px;
+  margin-bottom: 10px;
+}
+
+.btn-wrapper{
+  
+  color:white;
+  /*border-top: 20px;*/
+}
+
+.btn{
+  
+  color:white;
+  display: inline-block;
+  margin: 20px 10px 10px 0px;
+  padding: 12px 24px;
+  border-radius: 4px;
+  opacity: 0.8;
+}
+
+.btn:hover{
+  opacity:1;
+}
+
+.email-button{
+  
+  background-color:#239b76;
+}
+.facebook{
+  
+  background-color:#3b5998;
+}
+
+.twitter{
+  
+  background-color:#55acee;
+}
+
+.fa{
+  margin-right: 5px;
+}
+.lessons{
+  width: 1170px;
+  
+  margin:auto;
+}
+.lessons-container{
+  
+  padding: 60px 0px 80px 0px;
+  height: 430px;
+  text-align:center;
+  background-color:#f7f7f7;
+  
+}
+
+.lesson-content{
+  float:left;
+  width:25%;
+}
+
+.lesson-icon p{
+  position:absolute;
+  color:white;
+  top:90px;
+  width:100%;
+}
+.lesson-icon{
+  position:relative;
+  margin-bottom:20px;
+}
+
+.lesson-desc {
+  
+  width: 80%;
+  display: inline-block;
+  color:#b3aeb5;
+  font-size:15px;
+  
+}
+
+.lessons-container h2{
+  font-weight: normal;
+  color:#5f5d60;
+  margin-bottom: 30px;
+}
+
+
+
+.messages{
+  
+    border-bottom: 1px solid #eee;
+    margin-top: 60px;
+}
+.messages-container{
+  
+    color:#5f5d60;
+    padding: 0px 0px 80px 0px;
+    width: 1170px;
+    margin: 0 auto;
+    text-align:center;
+}
+.messages-container h2{
+    font-weight: normal;
+}
+
+
+ .btn-start{
+        color:white;
+        margin-top: 32px;
+        padding: 15px 40px;
+        background-color:#5dca88;
+        display: inline-block;
+        box-shadow: 0 7px  #1a7940;
+        border-radius: 4px;
+        opacity: 0.7;
+    }
+  .btn-start:hover{
+      opacity:1;
+      cursor:pointer;
+  }
+  
+  .btn-start:active{
+      box-shadow: none;
+      position: relative;
+      top: 7px;
+  }
+  
+
+.footer-container{
+  width: 1170px;
+  margin: 0 auto;
+}
+.footer-logo{
+  width:124px;
+  padding-top:30px;
+  
+}
+footer p{
+  font-size:12px;
+  color:#b3aeb5
+}
